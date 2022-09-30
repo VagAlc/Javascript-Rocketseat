@@ -74,4 +74,5 @@ As variáveis const e let são locais e funcionam apenas no escopo ({ Escopo}) e
 
 Ao criar uma variável, na hora de nomear ela, eu posso começar com caracteres especiais (&%$#@!), letras, colocar acentos e diferenciar com letras maiúsculas e minúsculas.
 Não posso jamais começar com números e nem colocar espaços vazios no nome.
+Na hora de nomear a variável, tentar deixar claro o que ela faz ou é. Usar ou camelCase (no lugar de espaços, letras maiúsculas) ou snake_case (no lugar de espaço, usar _)
 
