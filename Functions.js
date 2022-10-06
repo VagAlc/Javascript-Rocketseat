@@ -16,7 +16,7 @@ console.log(`O Number 1 é: ${number1}`)
 console.log(`O Number 2 é: ${number2}`)
 console.log(`A soma é: ${sum (number1, number2)}`)
 */
-
+/*
 // Function Scope
 
 let subject = 'create video'
@@ -27,3 +27,35 @@ function createThink(subject) {
 
 console.log(subject)
 console.log(createThink(subject))
+*/
+
+/*
+// Function Hoisting
+
+sayMyName();
+
+function sayMyName () {
+    console.log('Mayk')
+}
+*/
+/*
+// Arrow Function
+
+const sayMyName =() =>{
+    console.log ('Vagner')
+}
+sayMyName()
+*/
+/*
+// Callback function
+
+function sayMyName(name){
+    console.log('antes de executar a callback')
+    name()
+    console.log('depois de executar a callback')
+}
+sayMyName(() => {
+    console.log('estou em uma callback')
+})
+*/
+
