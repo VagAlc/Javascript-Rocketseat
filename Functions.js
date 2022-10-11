@@ -64,7 +64,7 @@ sayMyName(() => {
     * criar um novo objeto
     * this keyword
 */
-
+/*
 function Person(name) {
 this.name = name
 }
@@ -72,3 +72,16 @@ const mayk = new Person ("Mayk")
 const joao = new Person ("João")
 console.log(mayk)
 console.log(joao)
+*/
+
+/* Prototype
+
+    * prototype-based language
+    * prototype chain
+    * __proto__
+*/
+
+/*
+    Type conversion (typecasting) vs Type coersion
+    * alteração de um típo de dado para outro tipo
+*/
