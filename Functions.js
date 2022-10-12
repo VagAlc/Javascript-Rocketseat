@@ -84,4 +84,44 @@ console.log(joao)
 /*
     Type conversion (typecasting) vs Type coersion
     * alteração de um típo de dado para outro tipo
+
+    type coersion= o JS faz a alteração automaticamente para não ter problema no código.
+
+    type conversion= quando é o usuário quem muda.
+    Ex: console.log(Number('9')+ 5)
 */
+/*let dinheiroNaConta = false
+const makePix = dinheiroNaConta ? 'Fazer o Pix' : 'Aguardar para fazer o Pix'
+
+console.log(makePix)
+
+
+console.log(4 + 8)
+*/
+
+// Resolução dos Exercícios Propostos
+
+// Transformar Notas Esclares
+
+
+let nota = 59
+
+function imprimirNota(nota){
+    if(nota >= 90){
+        console.log("A - Sensacional, aprovadíssimo!")
+    } else if (nota >= 80){
+        console.log("B - Muito bom, você foi bem!")
+    } else if (nota >= 70) {
+        console.log("C - Bom, mas você pode ser ainda melhor!")
+     } else if (nota >= 60){
+        console.log("D - Quase! Você precisa melhorar!")
+     } else if (nota < 60){
+        console.log("F - Reprovado! Precisamos conversar imediatamente!")
+     }
+}
+
+imprimirNota(99)
+imprimirNota(89)
+imprimirNota(79)
+imprimirNota(69)
+imprimirNota(59)
